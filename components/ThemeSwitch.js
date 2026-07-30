@@ -593,7 +593,7 @@ const ThemeSwitch = () => {
       <Draggable stick={true}>
         <div
           id='draggableBox'
-          style={{ left: '0px', top: '80vh' }}
+          style={{ right: '0px', top: '88vh' }}
           className={`group fixed z-50 flex max-w-[calc(100vw-1rem)] select-none items-center overflow-hidden rounded-xl border p-1 backdrop-blur-md transition ${
             isDarkMode
               ? 'border-gray-700/90 bg-gray-950/95 shadow-[0_8px_24px_rgba(0,0,0,0.4)] ring-1 ring-white/[0.06]'
